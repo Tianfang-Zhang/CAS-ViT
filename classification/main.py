@@ -15,9 +15,7 @@ from timm.models import create_model
 from timm.loss import LabelSmoothingCrossEntropy, SoftTargetCrossEntropy
 from timm.utils import ModelEma
 from optim_factory import create_optimizer
-# from timm.optim import create_optimizer
 
-# from data.datasets import build_dataset
 from data.datasets import build_dataset
 from engine import train_one_epoch, evaluate
 
@@ -26,7 +24,6 @@ import utils as utils
 
 from model import *
 from classification.data.samplers import MultiScaleSamplerDDP
-from fvcore.nn import FlopCountAnalysis
 
 
 def str2bool(v):
@@ -45,7 +42,7 @@ def str2bool(v):
 
 
 def get_args_parser():
-    parser = argparse.ArgumentParser('ConvNeXt training and evaluation script for image classification', add_help=False)
+    parser = argparse.ArgumentParser('CAS-ViT training and evaluation script for image classification', add_help=False)
     parser.add_argument('--batch_size', default=256, type=int,
                         help='Per GPU batch size')
     parser.add_argument('--epochs', default=300, type=int)
@@ -53,7 +50,7 @@ def get_args_parser():
                         help='gradient accumulation steps')
 
     # Model parameters
-    parser.add_argument('--model', default='edgenext_small', type=str, metavar='MODEL',
+    parser.add_argument('--model', default='rcvit_xs', type=str, metavar='MODEL',
                         help='Name of model to train')
     parser.add_argument('--drop_path', type=float, default=0.1, metavar='PCT',
                         help='Drop path rate (default: 0.0)')
@@ -526,7 +523,7 @@ def main(args):
 
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser('EdgeNeXt training and evaluation script', parents=[get_args_parser()])
+    parser = argparse.ArgumentParser('CAS-ViT training and evaluation script', parents=[get_args_parser()])
     args = parser.parse_args()
     if args.output_dir:
         Path(args.output_dir).mkdir(parents=True, exist_ok=True)
