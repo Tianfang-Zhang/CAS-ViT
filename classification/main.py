@@ -217,7 +217,7 @@ def main(args):
             args.crop_pct = 0.95
             model_state_dict_name = 'state_dict'
         else:
-            model_state_dict_name = 'model_ema'
+            model_state_dict_name = 'model'
     else:
         model_state_dict_name = 'model'
 

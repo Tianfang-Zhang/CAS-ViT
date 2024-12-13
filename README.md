@@ -12,7 +12,7 @@
 Comparison of diverse self-attention mechanisms. (a) is the classical multi-head self-attention in ViT. (b) is the separable self-attention in MobileViTv2, which reduces the feature metric of a matrix to a vector. (c) is the swift self-attention in SwiftFormer, which achieves efficient feature association only with **Q** and **K**. (d) is proposed convolutional additive self-attention.
 
 <p align="center">
-  <img src="./assets/arch.png" width=80%/>
+  <img src="./assets/arch_large.png" width=100%/>
 </p>
 
 **Upper:** Illustration of the classification backbone network. Four stages downsample the original image to 1/4, 1/8, 1/16, 1/32 . **Lower:** Block architecture with N$_i$ blocks stacked in each stage.

@@ -29,16 +29,11 @@ def build_dataset(is_train, args):
         nb_classes = 100
     elif args.data_set == 'IMNET':
         print("reading from datapath", args.data_path)
-        # root = os.path.join(args.data_path, 'train' if is_train else 'val')
-        # if is_train and args.multi_scale_sampler:
-        #     dataset = MultiScaleImageFolder(root, args)
-        # else:
-        #     dataset = datasets.ImageFolder(root, transform=transform)
+        root = os.path.join(args.data_path, 'train' if is_train else 'val')
         if is_train and args.multi_scale_sampler:
-            dataset = MultiScaleImageNet1k(args.data_path, args, is_train)
+            dataset = MultiScaleImageFolder(root, args)
         else:
-            # dataset = MultiScaleImageNet1k(args.data_path, args, is_train, transform=transform)
-            dataset = ImageNet1kDataset(args.data_path, is_train, transform=transform)
+            dataset = datasets.ImageFolder(root, transform=transform)
         nb_classes = 1000
     elif args.data_set == 'IMNET-A':
 	    assert not is_train, f'IMNET-A should only be used when Test'

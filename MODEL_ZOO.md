@@ -6,10 +6,12 @@
 
 | Model | Paras(M) | Top1(%) | Download |
 | :--- | :--- | :--- | :--- |
-| CAS-ViT-XS | 3.20 | 77.5 | [Google Drive](https://drive.google.com/file/d/1Rb9cFsLRMVZAi-lTQ34RGfS91g0JEoWe/view?usp=sharing) |
-| CAS-ViT-S  | 5.76 | 80.2 | [Google Drive](https://drive.google.com/file/d/1Bf5Wo1aYrR-z75ZCZl_z4PL9CtnHoELl/view?usp=sharing) |
-| CAS-ViT-M  | 12.42 | 81.4 | [Google Drive](https://drive.google.com/file/d/1PAmXHVaAIhN8jw3WxWyVZYaD120AhQNq/view?usp=sharing) |
-| CAS-ViT-T  | 21.76 | 82.3 | [Google Drive](https://drive.google.com/file/d/1pPUwOl64IMlWdKFQFREVcbJYCp7g8EaP/view?usp=sharing) |
+| CAS-ViT-XS | 3.20 | 78.3/78.7 | [Google Drive](https://drive.google.com/file/d/16wKcwF6QMW5w_lyPYnDKjMNuoxQDfrLK/view?usp=drive_link)/[Google Drive](https://drive.google.com/file/d/1kwRPtJ4FdmNeTm2MsiFN7N2DJpou3Pgl/view?usp=drive_link) |
+| CAS-ViT-S  | 5.76 | 80.9/81.1 | [Google Drive](https://drive.google.com/file/d/1facFRq8s8oelYUtK1fj3fcfdoWoKDBQQ/view?usp=drive_link)/[Google Drive](https://drive.google.com/file/d/1UagCihMWmNCmYGC1DV5euAvA5TONI818/view?usp=drive_link) |
+| CAS-ViT-M  | 12.42 | 82.8/83.0 | [Google Drive](https://drive.google.com/file/d/13sQpSEf0h_uuh0jRy9V0yIW6ZsbDpVGy/view?usp=drive_link)/[Google Drive](https://drive.google.com/file/d/1pTwKKRLPA7vBfk_KTgJ4J1Jq3ttkh3O2/view?usp=drive_link) |
+| CAS-ViT-T  | 21.76 | 83.9/84.1 | [Google Drive](https://drive.google.com/file/d/1NqoIUPbwBC91RTjTUvubAbOfGqo1VYT0/view?usp=drive_link)/[Google Drive](https://drive.google.com/file/d/1N5Y81Vcyf2ox41TC3wlRBxgQPYaEndTW/view?usp=drive_link) |
+
+
 
 ## Object Detection and Instance Segmentation
 
@@ -30,7 +32,7 @@
 
 | Model | Backbone | mIoU | Config | Download |
 | :--- | :--- | :--- | :--- | :--- |
-| Semantic FPN | CAS-ViT-XS | 36.8 | [Config](./segmentation/configs/RCViT/fpn_rcvit_xs_512x512_40k_ade20k_bs4.py) | [Google Drive](https://drive.google.com/file/d/1Ws-1R0CDwypwxnj80wiyKj8udcNEJX66/view?usp=sharing) |
-| Semantic FPN | CAS-ViT-S  | 40.3 | [Config](./segmentation/configs/RCViT/fpn_rcvit_s_512x512_40k_ade20k_bs4.py) | [Google Drive](https://drive.google.com/file/d/1bc5FMQQjEEQvXwdsLhLgtN46onWrFPHN/view?usp=sharing) |
+| Semantic FPN | CAS-ViT-XS | 37.1 | [Config](./segmentation/configs/RCViT/fpn_rcvit_xs_512x512_40k_ade20k_bs4.py) | [Google Drive](https://drive.google.com/file/d/1gCWmdNNQEa9EEwsxIuL2daIavJPcnGny/view?usp=drive_link) |
+| Semantic FPN | CAS-ViT-S  | 41.3 | [Config](./segmentation/configs/RCViT/fpn_rcvit_s_512x512_40k_ade20k_bs4.py) | [Google Drive](https://drive.google.com/file/d/1fRY5RZXF7inaDgGKQhLKPpexz5t9p7w2/view?usp=drive_link) |
 | Semantic FPN | CAS-ViT-M  | 43.6 | [Config](./segmentation/configs/RCViT/fpn_rcvit_m_512x512_40k_ade20k_bs4.py) | [Google Drive](https://drive.google.com/file/d/1QgBkh006WXqOrw23ehWOHPZM_V_O84c6/view?usp=sharing) |
 | Semantic FPN | CAS-ViT-T  | 45.0 | [Config](./segmentation/configs/RCViT/fpn_rcvit_t_512x512_40k_ade20k_bs4.py) | [Google Drive](https://drive.google.com/file/d/14tn6hctKu16GKNBeUiwuUzJml-qsxdkh/view?usp=sharing) |
