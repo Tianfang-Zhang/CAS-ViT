@@ -1,8 +1,13 @@
-# CAS-ViT: Convolutional Additive Self-attention Vision Transformers for Efficient Mobile Applications
+# CAS-ViT: Convolutional Additive Self-attention Vision Transformers for Efficient Mobile Applications(TIP)
 
 [![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2408.03703) [![Code](https://img.shields.io/badge/Project-Website-87CEEB)](https://github.com/Tianfang-Zhang/CAS-ViT)
 
 📌 Official Implementation of our proposed method CAS-ViT.
+
+---
+## 🚀 News
+
+* **(Jan 11, 2026):** CAS-ViT has been accepted by [TIP](https://signalprocessingsociety.org/publications-resources/ieee-transactions-image-processing). 🎉🎉🎉
 
 ---
 <p align="center">
