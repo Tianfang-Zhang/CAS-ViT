@@ -4,7 +4,7 @@
 
 ## Classification
 
-| Model | Paras(M) | Top1(%) | Download |
+| Model | Params(M) | Top1(%) | Download |
 | :--- | :--- | :--- | :--- |
 | CAS-ViT-XS | 3.20 | 78.3/78.7 | [Google Drive](https://drive.google.com/file/d/16wKcwF6QMW5w_lyPYnDKjMNuoxQDfrLK/view?usp=drive_link)/[Google Drive](https://drive.google.com/file/d/1kwRPtJ4FdmNeTm2MsiFN7N2DJpou3Pgl/view?usp=drive_link) |
 | CAS-ViT-S  | 5.76 | 80.9/81.1 | [Google Drive](https://drive.google.com/file/d/1facFRq8s8oelYUtK1fj3fcfdoWoKDBQQ/view?usp=drive_link)/[Google Drive](https://drive.google.com/file/d/1UagCihMWmNCmYGC1DV5euAvA5TONI818/view?usp=drive_link) |
